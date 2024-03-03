@@ -1,7 +1,6 @@
 # customer-management
 React and Node.js Application with PostgreSQL Database
 This application is built using React for the frontend, Node.js for the backend, and PostgreSQL for the database. It provides functionality to manage customer records with the following features:
-
 Database Initialization: Automatically creates 50 dummy records in the PostgreSQL database with the specified column fields: sno, customer_name, age, phone, location, created_at.
 Single Page Application (SPA): Displays the customer records in a table format with search and pagination features.
 Date and Time Display: The created_at column data is displayed in two separate columns as date and time.
@@ -15,10 +14,8 @@ cd <project_directory>
 3.Install dependencies for both frontend and backend:
 cd frontend
 npm install 
-
 cd ../backend
 npm install pg express cors body_parser
-
 Database Setup
 1.Make sure PostgreSQL is installed on your system.
 
